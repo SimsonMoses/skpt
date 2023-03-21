@@ -8,9 +8,14 @@ const Navbar = ()=>{
     return(
         <div>
             <div>
-                <img src={logo} alt="logo" height={80} width={80} />
+                <img src={logo} alt="logo" height={70} width={80} />
             </div>
             <h3>Navbar</h3>
+            <div>
+                <li>HOME</li>
+                <li>SKPT</li>
+                <li>PROFILE</li>
+            </div>
         </div>
     )
 }
